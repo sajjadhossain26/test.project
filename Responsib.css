@@ -1,0 +1,26 @@
+@media(max-width:600px){
+  
+  .text {
+    background:red;
+    color: white;
+   
+    
+  }
+    
+    
+    
+    
+  }
+  @media(max-width:400px){
+  
+    .text {
+      background:blue;
+      color: white;
+     
+      
+    }
+      
+      
+      
+      
+    }
