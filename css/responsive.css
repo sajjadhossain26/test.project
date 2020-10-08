@@ -1,0 +1,169 @@
+.header-menu i {display: none;}
+
+@media(max-width:786px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header-menu li {
+        margin-left: -10px;
+    }
+  
+    .header-logo {
+        width: 100%;
+       text-align: center;
+    }
+    .header-menu ul {
+        opacity: 0;
+        list-style: none;
+        visibility: hidden;
+    }
+    .header-logo {
+        max-width: 100%;
+        float: left;
+        line-height: 66px;
+        margin-bottom: 30px;
+    }
+    .header-menu {
+        width: 222px;
+        float: left;
+    }
+    .header-btn button {
+      
+        position: absolute;
+        bottom: -40px;
+    }
+    .banner-content h1 {
+        font-size: 21px;
+        margin: 9px 0px;
+       
+    }
+    .banner-content a {
+        
+        margin: 5px;
+        padding: 4px;
+      
+        border-radius: 4px;
+      
+        font-size: 12px;
+    }
+    .header-btn {
+       
+        position: absolute;
+        top: 66px;
+        right: 11px;
+    }
+    .header-menu {
+        width: 50px;
+        float: left;
+        visibility: hidden;
+        position: absolute;
+        top: 53px;
+    }
+    .header-menu i {
+        display: block;
+        color: #9e47d2;
+
+        visibility: visible;
+        font-size: 30px;
+        position: absolute;
+        top: 9px;
+        left: 10px;
+    }
+    .banner-section {
+      
+        padding: 52px 0px;
+        overflow: hidden;
+    }
+    .video-content {
+        width: 100%;
+        float: left;
+        margin-top: -60px;
+        background: #776969;
+    }
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .video-content video {
+        width: 100%;
+    }
+    .title-content {
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+    .title-content h1 {
+        margin-bottom: 5px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .title-content p {
+        
+        width: 100%;
+    }
+    .title-application {
+        max-width: 510px;
+        margin: auto;
+    }
+    .price {
+        border-bottom: 1px solid #ddd;
+        padding: 26px;
+    }
+    .table-item {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -5%;
+    }
+    .table-item {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -5%;
+        margin-top: 30px;
+    }
+    .ourservice {
+        max-width: 45%;
+     
+        height: 258px;
+    }
+    .ourservice {
+        width: 40%;
+        margin: 15px;
+            margin-left: 15px;
+      
+        margin-left: 6%;
+    }
+    .right-contant p {
+        margin-bottom: 17px;
+       
+    }
+    .right-contant h2 {
+        margin-bottom: 10px;
+      
+    }
+    .right-contant {
+        width: 80%;
+        margin-left: 36%;
+        margin-top: 14%;
+    }
+    .left-map {
+        width: 100%;
+        float: left;
+    }
+
+
+
+}
+@media(max-width:520px){
+    .title-application {
+        max-width: 50%;
+        margin: auto;
+    }
+    .s-title {
+        width: 100%;
+    }
+    .ourservice {
+        width: 100%;
+        margin-left: 28%;
+    }
+}
